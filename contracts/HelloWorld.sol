@@ -109,7 +109,7 @@ contract HelloWorld is ICallServiceReceiver, Initializable {
             // normal message delivery, expects abi encoded data in foramt (uint8, bytes) !!!
             (uint8 messageType, bytes memory message) = abi.decode(_data, (uint8, bytes));
 
-            if (messageType == 0) {
+            if (messageType != 2) {
                 string memory msgData = string(message);
 
                 if (compareTo("revertMessage", msgData)) {
