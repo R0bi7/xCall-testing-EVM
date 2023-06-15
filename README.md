@@ -1,3 +1,10 @@
+<p align="center">
+  <img 
+    src="./icon_img.png" 
+    alt="Icon logo">
+</p>
+
+
 # xCall testing EVM
 
 This project demonstrates a basic xCall use case. It comes with a showcase contract and a script that deploys that contract to Sepolia (ETH testnet) and BSC testnet.
