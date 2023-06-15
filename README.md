@@ -5,6 +5,9 @@ This project demonstrates a basic xCall use case. It comes with a showcase contr
 Deployment scripts execution:
 
 ```shell
+// compile smart contracts
+npx hardhat compile
+
 // deploy to BSC testnet 
 npx hardhat run --network bsc_testnet ./scripts/deployBscTestnet.ts
 
